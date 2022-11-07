@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-image: radial-gradient(circle, rgb(231, 243, 188), rgb(155, 162, 248), rgb(113, 122, 248));
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(24, 87, 92);
+    color: rgb(255, 255, 255);
+    width: 330px;
+    margin: 0 left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px rgb(75, 75, 75);
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(24, 87, 92);
+    color: rgb(255, 255, 255);
+    width: 1600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: rgb(57, 219, 228);
+}
+
+.basico{
+color: brown;
+}
+.intermediario {
+color: yellow;
+}
+.avancado{
+color: green;
+}
