@@ -14,6 +14,7 @@
     table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
 
     td, th {
@@ -24,17 +25,31 @@
     thead, tfoot {
         background-color: gray;
         color: white;
+        background-color: gray;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: 0;
     }
 
     tbody > tr {
         background-color: lightgray;
     }
 
+   
 
     td.num {
         text-align: right;
     }
 
+    tbody > tr:nth-child(odd) {
+        background-color: whitesmoke;
+    }
+
+    tbody > tr:nth-child(even) {
+        background-color: lightgray;
+    }
     caption {
         font-size: 1.5em;
         font-weight: bold;
