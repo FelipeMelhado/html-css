@@ -60,7 +60,7 @@ article > p {
     text-indent: 20px;
 }
 
-span#burguer {
+i#burguer {
     background-color: rgb(255, 255, 255);
     display: block;
     color: rgb(58, 58, 58);
@@ -68,7 +68,7 @@ span#burguer {
     padding: 8px;
 }
 
-span#burguer:hover {
+i#burguer:hover {
     background-color: rgb(58, 58, 58);
     color: rgb(255, 255, 255);
 }
